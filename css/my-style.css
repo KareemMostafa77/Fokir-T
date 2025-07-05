@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+/*------------------------ Header Of WebSite ----------------------------*/
+
+header{
+    
+    height: 635px;
+    background-image: url(../images/slider-01.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.layout{
+    
+    height: inherit;
+    background-color: rgba(0,0,0,0.7);
+
+}
+
+
+
+.navbar-brand {
+    color:#ff305b !important;
+    font-size: 30px;
+}
+.navbar-collapse{
+    position: relative !important;
+    z-index: 999 !important;
+}
+.nav-item a{
+    color: white !important;
+}
+.nav-item a:hover{
+    color:#ff305b !important;
+}
+
+.h-info h1{
+    
+    font-size: 60px;
+    color:#ff305b;
+    margin: 20px 0px 10px 0px ;
+}
+
+.h-info p{
+    
+    font-size: 24px;
+    font-weight: 100;
+}
+
+@media (max-width: 991.98px) { 
+    
+    header{
+    background-size: cover;
+    background-position: center
+}
+    
+    .navbar-nav{
+        
+        background-color: gray;
+        border-radius: 10px;
+        padding: 10px ;
+    }
+}
+/*--------------------------- Section 2 --------------------------------*/
+.I{
+    color:#ff305b;
+}
+.s2 button{
+    background-color:#ff305b !important;
+}
+
+.s2-border{
+    height: inherit;
+    border-color: grey;
+    border-style: solid;
+    border-width: 10px;
+    width: 75%
+}
+
+.layout2{
+    position: absolute;
+    height: 100%;
+    top:400px;
+    background-color: rgba(0,0,0,0.5);
+    transition: top 1.5s;
+}
+
+.s2-image{
+    height: 400px;
+    top:25px;
+    left: 25px;
+    overflow: hidden;
+}
+
+.s2-image:hover .layout2{
+    top:0;
+}
+.icon{
+    
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+.icon:hover{
+    color:#ff305b !important;
+}
+
+@media (max-width: 1200px){
+    .s2 p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px){
+    .s2 p{
+        font-size: 13px;
+    }
+    .s2-border{
+        
+    width: 100%;
+}
+
+    
+}
+
+@media (max-width: 767px){
+    .s2-border{
+        
+    width: 75%;
+}
+    .s2-image{
+    
+    top:0px;
+    left: 0px;
+}
+}
+
+/*--------------------------- Section 3 ----------------------------*/
+
+.s3{
+    background-color: #f1f1f1;
+}
+.s3 h2:before , .s4 h2:before , .s5 h2:before , .s6 h2:before , .s7 h2:before{
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: -20; /* control place */
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.s3 h2:after ,.s4 h2:after , .s5 h2:after , .s6 h2:after , .s7 h2:after{
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: -15;
+    height: 1px;
+    width: 160px;
+}
+
+.s3 .row .rounded:hover{
+    
+    background-color: white;
+    box-shadow: -5px -5px 1px darkgray, 5px 5px 1px darkgray;
+}
+@media (max-width: 767px){
+    .s3 .row .col-sm-12{
+        margin: 0 10px;
+    }
+}
+/*--------------------------------- Section 4 --------------------------*/
+
+.s4 .nav-link{
+    color: black !important;
+    font-weight: 400;
+}
+.nav-item .active{
+    color: red !important;
+    background-color: white !important;
+}
+/*--------------------------------- Section 5 ------------------------*/
+
+.s5{
+    background-color: #f1f1f1;
+}
+.s5 .carousel-inner{
+    height: 50%;
+}
+.s5-indicator{
+    background-color:white!important;
+}
+.s5 .carousel-indicators .active{
+    background-color: #ff305b !important;
+}
+@media (max-width: 992px){
+   .s5 .carousel-inner{
+    height: fit-content !important;
+} 
+}
+@media (min-width: 993px){
+   .s5 .carousel-inner{
+    height: fit-content !important;
+} 
+}
+/*------------------- Section 6 -----------------------*/
+    
+.card-body h5:hover , .card-body a:hover{
+        cursor: pointer;
+        color: #ff305b !important;
+        text-decoration: none;
+    }
+
+/*------------------- Section 7 -----------------------*/
+.s7{
+    background-color: #f1f1f1;
+}
+/*------------------ Footer ---------------------------*/
+footer div p span{
+    color: #ff305b !important;
+}
+
+footer div p span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
